@@ -1,0 +1,20 @@
+.main-bg{
+    background-color: #E8EBF2;
+}
+.bg-btn{
+    background-color: #4A374A;
+    color: white;
+}
+.mt-50{
+    margin-top: 12.5%;
+}
+.shadow-a{
+    -webkit-box-shadow: 5px 7px 13px 1px rgba(0,0,0,0.4); 
+box-shadow: 5px 7px 13px 1px rgba(0,0,0,0.4);
+}
+.order-list{
+    height: 20rem;
+}
+.details{
+    height: 20rem;
+}
