@@ -1,0 +1,27 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,400;1,500&display=swap');
+h3{
+    font-family: 'Pacifico', cursive;
+    color: #363431;
+}
+a,.link,h2{
+    font-family: 'Poppins', serif;
+    color: #9F5500;
+    font-weight: 700;
+}
+.bg-brown-secondary{
+    background-color: #ECE3D6;
+}
+.bg-test{
+    background-color: #9F5500;
+}
+.border-main{
+    border-color: #9F5500!important;
+}
+#user-logged{
+    margin: 0;
+    padding: 0;
+}
+.bg-main{
+    background-color: #EFECE8;
+}
