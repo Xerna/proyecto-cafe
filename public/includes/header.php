@@ -19,12 +19,12 @@
             <h3 class="mt-3">The Coffee Shop</h3>
           </a>
           <div class="navbar-nav border border-main p-1">
-              <a class="nav-link link   " href="#">Editar Menu</a>
-              <a class="nav-link link   border-main" href="#">Editar Usuarios</a>
-              <a class="nav-link link   border-main" href="#">Ver Ordenes</a>
+              <a class="nav-link link" href="#">Editar Menu</a>
+              <a class="nav-link link" href="#">Editar Usuarios</a>
+              <a class="nav-link link" href="#">Ver Ordenes</a>
           </div>
-          <div class="bg-test" id="user-logged" styles="heigth=100%;">
-          <h6 class="fs-6 text-white px-3 py-2"><i class="fa-solid fa-user me-2"></i>Ricardo Cerna</h6> 
+          <div class="bg-test" id="user-logged">
+          <h6 class="text-white px-3 py-2 my-1"><i class="fa-solid fa-user me-2"></i>Ricardo Cerna</h6> 
           </div>
     </nav>
   </header>
