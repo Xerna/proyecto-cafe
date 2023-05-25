@@ -18,11 +18,34 @@ h6{
 td,h5{
     font-size: 13px;
 }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: red;
+    font-size: 12px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: red;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: red;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+}
+::placeholder { /* Modern browsers */
+   color: red;
+}
+.form-control{
+    color: #9F5500!important;
+    font-size: 12px;
+}
 .bg-brown-secondary{
     background-color: #ECE3D6;
 }
 .bg-test{
     background-color: #9F5500;
+    
 }
 .border-main{
     border-color: #9F5500!important;
@@ -33,4 +56,10 @@ td,h5{
 }
 .bg-main{
     background-color: #EFECE8;
+}
+.py-7{
+    padding: 3rem 0 4rem 0;
+}
+.w-30{
+    width: 30%;
 }
