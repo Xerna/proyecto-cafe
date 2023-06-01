@@ -1,5 +1,13 @@
 <?php
+session_start();
+if($_SESSION['tipousuario'] !="admin" || !isset($_SESSION['usuario'])){
+    header('Location: ../public/login.php');
+}
+// if (!isset($_SESSION['usuario']) && $_SESSION['tipousuario'] != "admin"){
+//     header('Location: ../public/login.php');
+// }
 require ('../private/database/conn.php');
+
 $stmt = $conn->prepare("SELECT * from ordenes");
 $stmt->execute();
 $i = 0; 

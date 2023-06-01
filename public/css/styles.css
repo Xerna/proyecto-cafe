@@ -6,6 +6,17 @@ h3{
     font-size: 18px;
 
 }
+img{
+    width: 100%;
+}
+.menu-img {
+    max-width: 5rem;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 a,.link,h2,h6{
     font-family: 'Poppins', serif;
     color: #9F5500;
@@ -62,4 +73,7 @@ td,h5{
 }
 .w-30{
     width: 30%;
+}
+.text-m{
+    color: #9F5500;
 }

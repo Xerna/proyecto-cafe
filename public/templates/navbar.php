@@ -10,7 +10,9 @@
               <a class="nav-link link" href="#">Ver Ordenes</a>
           </div>
           <div class="bg-test" id="user-logged">
-          <h6 class="text-white px-3 py-2 my-1"><i class="fa-solid fa-user me-2"></i>Ricardo Cerna</h6> 
+          <a href ="logout.php"><h6 class="text-white px-3 py-2 my-1"><i class="fa-solid fa-user me-2"></i>Ricardo Cerna</h6>  </a> 
+        
+        
           </div>
     </nav>
   </header>

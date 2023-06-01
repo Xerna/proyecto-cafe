@@ -19,7 +19,6 @@ while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
             <th class="col-1" scope="col-2">Mesa</th>
             <th class="col-7" scope="col-6">Detalles de la orden</th>
             <th class="col-1" scope="col-2">Total</th>
-            <th class="col-2" scope="col-2">Estado</th>
           </tr>
         </thead>
         <tbody>
@@ -29,7 +28,7 @@ while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
             <td><?php echo $orden['order_table'];?></td>
             <td><?php echo $orden['order_details'];?></td>
             <td class="text-success fw-bold"><?php echo $orden['order_total'];?></td>
-            <td class="border border-warning text-warning border-3 text-center align-middle">Pendiente<i class="ms-3 fa-solid fa-caret-down"></i></td>
+
           </tr>
           <?php endforeach;?>
         </tbody>
